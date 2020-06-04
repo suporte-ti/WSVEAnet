@@ -167,8 +167,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Cobranca.cs" />
+    <Compile Include="Models\CobrancaEnvio.cs" />
+    <Compile Include="Models\EnvioParam.cs" />
+    <Compile Include="Models\Higienizacao.cs" />
     <Compile Include="Models\Pagamento.cs" />
+    <Compile Include="Models\Relatorio.cs" />
+    <Compile Include="Models\Retorno.cs" />
+    <Compile Include="Models\RetornoCobranca.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

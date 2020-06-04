@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WSVEAnet.Models
 {
-    public class Cobranca
+    public class CobrancaEnvio
     {
         public string documento { get; set; }
         public string tipo_documento { get; set; }
@@ -35,16 +35,19 @@ namespace WSVEAnet.Models
         public string conta { get; set; }
         public string digito_conta { get; set; }
         public int carteira { get; set; }
-        public double valor  { get; set; }
-        public double multa  { get; set; }
-        public double valor_total { get; set; }
+        public string valor { get; set; }
+        public string multa { get; set; }
+        public string valor_total { get; set; }
         public string nosso_numero { get; set; }
         public string acao { get; set; }
         public string str_retorno { get; set; }
+        public string Envio { get; set; }
         public int codigoEnvio { get; set; }
+        public int codigoEnvioAtual { get; set; }
         public string codigoEnvioTemp { get; set; }
         public string codigo { get; set; }
         public string resultado { get; set; }
-
+        public string statusPagamento { get; set; }
+        public string mes { get; set; }
     }
 }
